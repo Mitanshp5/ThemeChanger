@@ -1,0 +1,27 @@
+#myButton{
+    background-color: aqua;
+    border-radius: 40px;
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 5px 1px rgba(7, 198, 208, 0.5);
+}
+
+#myButton:active{
+    transform: translate(-50%, -45%);
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.2);
+    background-color: rgb(9, 226, 226);
+}
+
+body.light {
+    background-color: antiquewhite;
+}
+body.dark {
+    background-color: black;
+}
+body {
+    transition: background-color 0.5s ease-in-out;
+}
